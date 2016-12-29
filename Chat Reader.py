@@ -6,7 +6,7 @@ def follow(awesome):
     while True:
          line = awesome.readline()
          if not line:
-             time.sleep(0.1)    # Sleep briefly
+             time.sleep(5.0)    # Sleep briefly
              continue
          yield line
 
